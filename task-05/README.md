@@ -10,7 +10,7 @@ The Terraform working directory is `/home/bob/terraform`. Create the `main.tf` f
 
 ## Solution
 
-For this task, whe writing the `main.tf` file, we'll add `assign_generated_ipv6_cidr_block = true` to meet the objective.
+For this task, when writing the `main.tf` file, we'll add `assign_generated_ipv6_cidr_block = true` to meet the objective.
 ```hcl
 resource "aws_vpc" "datacenter-vpc" {
     cidr_block                       = "10.0.0.0/16"
