@@ -113,7 +113,7 @@ Plan: 3 to add, 0 to change, 0 to destroy.
 And finally `apply`
 ```bash
 terraform apply
-
+# Output
 Terraform used the selected providers to generate the following execution plan. Resource
 actions are indicated with the following symbols:
   + create
