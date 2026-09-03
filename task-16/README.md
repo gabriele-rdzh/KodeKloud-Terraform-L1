@@ -54,12 +54,16 @@ If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
+
 We can always use `validate` to check for errors (optional)
+
 ```bash
 terraform validate
 Success! The configuration is valid.
 ```
+
 let's go with `plan`
+
 ```bash
 terraform plan
 
@@ -98,7 +102,9 @@ Terraform will perform the following actions:
 
 Plan: 1 to add, 0 to change, 0 to destroy.
 ```
+
 And finally `apply`
+
 ```bash
 terraform apply
 
