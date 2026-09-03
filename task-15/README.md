@@ -15,7 +15,7 @@ resource "aws_iam_group" "iamgroup_siva" {
 }
 ```
 
-Now let's create our IAM group by using `init`, `plan` and `apply
+Now let's create our IAM group by using `init`, `plan` and `apply`
 ```bash
 terraform init
 # Output
