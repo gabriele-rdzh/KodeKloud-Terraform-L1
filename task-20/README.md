@@ -86,7 +86,7 @@ Terraform will perform the following actions:
 Plan: 1 to add, 0 to change, 0 to destroy.
 
 ```
-And finally `apply
+And finally `apply`
 ```bash
 terraform apply
 
